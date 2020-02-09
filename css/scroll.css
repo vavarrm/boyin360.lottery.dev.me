@@ -1,0 +1,37 @@
+body {
+
+    overflow: auto;
+}
+
+body div {
+
+}
+
+body::-webkit-scrollbar {
+    width: 0.5px;
+    height: 0.5px;
+}
+
+body::-webkit-scrollbar-button {
+    background-color: #f4f0ea;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f4f0ea;
+}
+
+body::-webkit-scrollbar-track-piece {
+    background: #f4f0ea;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #f4f0ea;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-corner {
+    background: #f4f0ea;
+}
+
+body::-webkit-scrollbar-resizer {
+    background: #f4f0ea;

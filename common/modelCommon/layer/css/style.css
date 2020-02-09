@@ -1,0 +1,191 @@
+#Lsj-fkinglayer {
+    display: none;
+    position: fixed;
+    z-index: 9998;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+    
+.Lsj-Modal {
+    display: none;
+    z-index: 9999;
+    position: absolute; 
+    top: 50px; 
+    left: 0; 
+    right: 0;  
+}
+    
+.Lsj_modal-content {
+    position: relative;
+    z-index:9999;
+    background-color: transparent;
+    margin: auto;
+    padding: 0;
+    min-width: 250px;
+    max-width: 1000px;
+    overflow:hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.Lsj-close {
+    color: #fff;
+    float: right;
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow:hidden;
+}
+
+.Lsj-close:hover,
+.Lsj-close:focus {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+.Lsj_modal-header {
+    height: 40px;
+    padding: 0 10px;
+    background-color: transparent;
+    color: #fff;
+    overflow:hidden;
+}
+
+.Lsjmodal-body_contents {
+    display:block;
+    clear:both;
+    width:100%;
+    min-height: 40px;
+    max-height: 550px;
+    overflow:hidden;
+}
+.Lsjmodal-body_contents p{
+    display:block;
+    clear:both;
+    width:100%;
+    overflow:hidden;
+    height:auto;
+    font-size:12px;
+}
+.Lsjmodal-body_contents p img {
+    padding: 0;
+    margin: 0;
+    width:100%;
+    min-height: 40px;
+    max-height: 550px;
+    overflow: hidden;
+}
+
+.Lsj_modal-footer {
+    padding: 2px 10px;
+    color: #555555;
+}
+
+.Lsjbtn-bottom-two-right {
+    text-align: center;
+}
+
+.Lsjbtn-bottom-two-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Lsj_okBtn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 5px;
+    border: none;
+    outline: none;
+    background-color: #3276b1;
+    color: #fff;
+    font-size: 16px;
+    line-height: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 150ms ease-out;
+    width: 180px;
+    letter-spacing: 4px;
+    border-radius: 2px;
+}
+
+.Lsj_okBtn.Lsj_filled:focus, 
+.Lsj_okBtn.Lsj_filled:hover {
+    background-color: #3276b1;
+    box-shadow: 0 0 0 0.1875rem white, 
+        0 0 0 0.375rem #3276b1;
+}
+.Lsj_okBtn.Lsj_filled:active {
+    background-color: #285e8e;
+    box-shadow: 0 0 0 0.1875rem #285e8e, 
+        0 0 0 0.375rem #285e8e;
+    transition-duration: 75ms;
+}
+
+.Lsj_modal-content .Lsj_modal-header h3{
+    text-align: center;
+    line-height:40px;
+    font-weight: 600;
+    margin: 0;
+    font-size:16px;
+}
+
+/*标题栏背景色*/
+.pop_title_box_bcolor{
+    background:#d0ecf2;
+}
+/*    标题颜色*/
+.pop_title_color{color:#f20925;}
+/*    背景色*/
+.pop_box_bg_color{background:#185252}
+/*    边框颜色*/
+.pop_border_color{border:2px solid #d0ecf2;}
+.Lsj_modal-footer{
+    background-color: #F7F7F7;
+}
+/*  Button */
+
+.Lsj_okBtn.Lsj_outline {
+    border: 2px solid #555555;
+    background-color: transparent;
+    color: #555555;
+}
+.Lsj_okBtn.Lsj_outline:focus, 
+.Lsj_okBtn.Lsj_outline:hover {
+    border-color: #555555;
+    box-shadow: 0 0 0 0.1875rem white, 
+        0 0 0 0.375rem #555555;
+    color: #555555;
+}
+.Lsj_okBtn.Lsj_outline:active {
+    border-color: #555555;
+    color: #555555;
+    box-shadow: 0 0 0 0.1875rem #555555, 
+        0 0 0 0.375rem #555555;
+    transition-duration: 75ms;
+}
+
+#LsjmyModal #Lsjmodal-body_contents img{
+	width: 100%;
+	height: 100%;
+}
